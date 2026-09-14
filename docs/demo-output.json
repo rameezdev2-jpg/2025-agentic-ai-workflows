@@ -1,0 +1,20 @@
+{
+  "grounded": {
+    "message": "What is the shipping time?",
+    "route": "knowledge",
+    "answer": "Standard shipping takes three to five business days.",
+    "citations": [
+      "policy:shipping"
+    ],
+    "handoff": false,
+    "ticket_id": 1
+  },
+  "handoff": {
+    "message": "Please refund my order",
+    "route": "handoff",
+    "answer": "This request requires a human support agent. No external action has been taken.",
+    "citations": [],
+    "handoff": true,
+    "ticket_id": 2
+  }
+}
